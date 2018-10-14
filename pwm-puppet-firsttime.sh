@@ -1,6 +1,6 @@
 #!/bin/bash -e
 yum -y install wget git-core vim open-vm-tools
-wget -O /tmp/puppetlabs-release-el-7.noarch.rpm http://yum.puppetlabs.com/puppetlabs-release-el-7.noarch.rpm
+wget -O /tmp/puppet6-release-el-7.noarch.rpm https://yum.puppet.com/puppet6/puppet6-release-el-7.noarch.rpm
 rpm -i /tmp/puppetlabs-release-el-7.noarch.rpm
 yum -y update
 yum -y install puppet
